@@ -1,0 +1,24 @@
+
+Здравейте {TO_USERNAME},
+
+Това съобщение е e-mail изпратен от администраторската контакт страница на "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Съобщението е изпратено от акаунт на сайта.
+Потребителско име: {FROM_USERNAME}
+E-mail адрес: {FROM_EMAIL_ADDRESS}
+IP адрес: {FROM_IP_ADDRESS}
+Прифил: {U_FROM_PROFILE}
+<!-- ELSE -->
+Съобщението е изпратено от нерегистриран потребител на сайта.
+Име: {FROM_USERNAME}
+E-mail адрес: {FROM_EMAIL_ADDRESS}
+IP адрес: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Това е съобщението:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
